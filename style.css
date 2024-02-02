@@ -1,0 +1,491 @@
+/*======SMARTPHONE=========*/
+
+@media only screen and (max-width: 375px) {
+    body {
+      background-color: whitesmoke;
+      width: 375px;
+      Height: 933px;
+    }
+	
+	/*=======Main========*/
+
+    .principal{
+        width: 375px;
+        height: 837;
+        background-color: whitesmoke;
+    }
+	
+    /*=======Encabezado========*/
+    .logo{
+		position:absolute;
+        width: 120px;  
+        height: 48px;
+        top: 40px;
+		left:16px;
+    }
+
+
+    
+
+    /*Cuadro de texto*/
+
+    .cuadro-texto{
+		position:absolute;
+        width: 343px;
+        height:48px;
+        top:152px;
+		left:16px;
+		
+        font-size: 32px;
+		font-weight:400;
+        text-align: left;
+		line-height: 48px;
+        color: darkblue;
+        border: none;
+        background-color: whitesmoke;
+    }
+
+
+    /*contenido-aviso*/
+
+    .contenido-aviso{
+		position:absolute;
+        width: 229px;
+        height: 18px;
+        display: flex;
+        top: 451px;
+        left: 16px;
+		gap:8px;
+    }
+
+    .exclamacion, .aviso{
+        display: inline;
+    }
+
+    .exclamacion{
+        width: 16px;
+        height: 16px;
+    }
+    .aviso{
+        width:205px;
+        height: 18px;        
+        margin: 0;
+        text-align: left;
+        color: gray;
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    /*botones*/
+
+    .botones{
+		position:absolute;
+        width: 343px;
+        height: 158px;
+        top: 485px;
+		left: 16px;
+		gap:24px;
+		display:inline;
+		
+		
+    }
+    .encriptar{
+        width: 343px;
+		height: 67px;
+        display:block;
+        border-radius: 24px;
+        padding: 24px;
+		gap:8px;
+        background-color: darkblue;
+        color: white;
+        border: 1px solid darkblue;
+		margin-bottom:24px;
+    }
+    .desencriptar{
+        width: 343px;
+		height: 67px;
+        display:block;    
+        border-radius: 24px;
+        padding: 24px;
+		gap:8px;
+        background-color: white;
+        color: darkblue;
+        border: 1px solid darkblue;
+		margin-bottom:0;
+    }
+
+    /*Cuadro de mensaje*/
+
+    .cuadro-mensaje{
+		position:absolute;
+        width: 327px;
+        height: 186px;
+        top: 707px;
+		left:24px;
+        border-radius: 32px;
+		padding:32px;
+		gap:32px;
+        background-color: whitesmoke;
+        align-content: center;
+        box-shadow: 2px 2px black;
+		margin:auto auto 40px 0;
+    }
+    .mensaje-1, .mensaje-2, .muñeco{
+        display: block;
+        
+        
+    }
+    .muñeco{
+        width: 0px;
+        height: 0px;
+    }
+
+    .mensaje-1{
+		width: 263px;
+        height: 58px;
+        font-size: 24px;
+        font-weight: 700;
+		text-align: center;
+        
+    }
+    .mensaje-2{
+		width: 263px;
+        height: 48px;
+        font-size: 16px;
+        text-align: center;
+        
+    }
+
+  }
+
+/*==========FIN SMARTPHONE===========*/
+
+
+/*======TABLET=========*/
+
+@media only screen and (min-width: 376px) {
+    body {
+      background-color: whitesmoke;
+      width: 768px;
+      Height: 1174px;
+    }
+	
+	/*=======Main========*/
+
+    .principal{
+        width: 768px;
+        height: 1174px;
+        background-color: whitesmoke;
+    }
+	
+    /*=======Encabezado========*/
+    .logo{
+		position:absolute;
+        width: 120px;  
+        height: 48px;
+        top: 40px;
+		left:40px;
+    }
+
+    
+
+    /*Cuadro de texto*/
+
+    .cuadro-texto{
+		position:absolute;
+        width: 688px;
+        height:48px;
+        top:240px;
+		left:40px;
+		
+        font-size: 32px;
+		font-weight:400;
+        text-align: left;
+		line-height: 48px;
+        color: darkblue;
+        border: none;
+        background-color: whitesmoke;
+    }
+
+
+    /*contenido-aviso*/
+
+    .contenido-aviso{
+		position:absolute;
+        width: 229px;
+        height: 18px;
+        display: flex;
+        top: 836px;
+        left: 40px;
+		gap:8px;
+    }
+
+    .exclamacion, .aviso{
+        display: inline;
+    }
+
+    .exclamacion{
+        width: 16px;
+        height: 16px;
+    }
+    .aviso{
+        width:205px;
+        height: 18px;        
+        margin: 0;
+        text-align: left;
+        color: gray;
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    /*botones*/
+
+    .botones{
+		position:absolute;
+        width: 688px;
+        height: 67px;
+        top: 870px;
+		left: 40px;
+		gap:24px;
+		display:flex;
+		
+		
+    }
+    .encriptar{
+        width: 332px;
+		height: 67px;
+        display:block;
+        border-radius: 24px;
+        padding: 24px;
+		gap:8px;
+        background-color: darkblue;
+        color: white;
+        border: 1px solid darkblue;
+    }
+    .desencriptar{
+        width: 332px;
+		height: 67px;
+        display:block;    
+        border-radius: 24px;
+        padding: 24px;
+		gap:8px;
+        background-color: white;
+        color: darkblue;
+        border: 1px solid darkblue;
+    }
+
+    /*Cuadro de mensaje*/
+
+    .cuadro-mensaje{
+		position:absolute;
+        width: 688px;
+        height: 133px;
+        top: 1001px;
+		left:40px;
+        border-radius: 32px;
+		padding:32px;
+		gap:32px;
+        background-color: whitesmoke;
+        align-content: center;
+        box-shadow: 2px 2px black;
+		margin:auto auto 40px 0;
+    }
+    .mensaje-1, .mensaje-2, .muñeco{
+        display: block;
+        
+        
+    }
+    .muñeco{
+        width: 0px;
+        height: 0px;
+    }
+
+    .mensaje-1{
+		width: 624px;
+        height: 29px;
+        font-size: 24px;
+        font-weight: 700;
+		text-align: center;
+        
+    }
+    .mensaje-2{
+		width: 624px;
+        height: 29px;
+        font-size: 16px;
+		font-weight: 400;
+        text-align: center;
+        
+    }
+
+  }
+
+/*==========FIN TABLET============*/
+
+/*==========INICIO LAPTOP============*/
+
+@media only screen and (min-width: 769px) {
+    body {
+      background-color: whitesmoke;
+      width: 1440px;
+      Height: 1024px;
+    }
+	
+	/*=======Main========*/
+
+    .principal{
+        width: 375px;
+        height: 837;
+        background-color: whitesmoke;
+    }
+	
+    /*=======Encabezado========*/
+
+    .logo{
+		position:absolute;
+        width: 120px;  
+        height: 48px;
+        top: 40px;
+		left:40px;
+    }
+
+    
+
+    /*Cuadro de texto*/
+
+    .cuadro-texto{
+		position:absolute;
+        width: 557px;
+        height:48px;
+        top:168px;
+		left:240px;
+		
+        font-size: 32px;
+		font-weight:400;
+        text-align: left;
+		line-height: 48px;
+        color: darkblue;
+        border: none;
+        background-color: whitesmoke;
+    }
+
+
+    /*contenido-aviso*/
+
+    .contenido-aviso{
+		position:absolute;
+        width: 229px;
+        height: 18px;
+        display: flex;
+        top: 851px;
+        left: 240px;
+		gap:8px;
+    }
+
+    .exclamacion, .aviso{
+        display: inline;
+    }
+
+    .exclamacion{
+        width: 16px;
+        height: 16px;
+    }
+    .aviso{
+        width:205px;
+        height: 18px;        
+        margin: 0;
+        text-align: left;
+        color: gray;
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    /*botones*/
+
+    .botones{
+		position:absolute;
+        width: 680px;
+        height: 67px;
+        top: 885px;
+		left: 240px;
+		gap:24px;
+		display:flex;
+		
+		
+    }
+    .encriptar{
+        width: 328px;
+		height: 67px;
+        display:block;
+        border-radius: 24px;
+        padding: 24px;
+		gap:8px;
+        background-color: darkblue;
+        color: white;
+        border: 1px solid darkblue;
+		margin-right:24px;
+    }
+    .desencriptar{
+        width: 328px;
+		height: 67px;
+        display:block;    
+        border-radius: 24px;
+        padding: 24px;
+		gap:8px;
+        background-color: white;
+        color: darkblue;
+        border: 1px solid darkblue;
+    }
+
+    /*Cuadro de mensaje*/
+
+    .cuadro-mensaje{
+		position:absolute;
+        width: 400px;
+        height: 944px;
+        top: 40px;
+		left:1000px;
+        border-radius: 32px;
+		padding:32px;
+		gap:32px;
+        background-color: white;
+        align-content: center;
+        box-shadow: 2px 2px black;
+		margin:auto auto 40px 0;
+    }
+    .mensaje-1, .mensaje-2, .muñeco{
+        display: block;
+        
+        
+    }
+    .muñeco{
+        
+        width: 336px;
+        height: 304px;
+        top: 283px;
+		left:1032px;
+    }
+
+    .mensaje-1{
+		width: 363px;
+        height: 58px;
+        font-size: 24px;
+        font-weight: 700;
+		text-align: center;
+		top: 619px;
+		left:1032px;
+        
+    }
+    .mensaje-2{
+		width: 363px;
+        height: 48px;
+        font-size: 16px;
+        text-align: center;
+		top: 677px;
+		left:1032px;
+        
+    }
+
+  }
+
+
+/*==========FIN LAPTOP============*/
